@@ -8,6 +8,9 @@ import math
 from tqdm import tqdm
 import argparse
 
+# --- EXAMPLE USAGE ---
+# python inference.py --genre POP --artist RICK_ASTLEY --year 1987 --output rick_roll.mid
+
 # ─── 0. Model definition ─────────────────────────────────────────────
 class RelativePositionalEncoding(nn.Module):
     """
