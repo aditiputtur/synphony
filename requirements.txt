@@ -1,8 +1,7 @@
 streamlit
-pandas
 pretty_midi
 pydub
 numpy
 scipy
-python-dotenv
-
+pandas
+setuptools
