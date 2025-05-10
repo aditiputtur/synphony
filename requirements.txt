@@ -5,4 +5,4 @@ numpy
 scipy
 pandas
 setuptools
-torch
+torch==2.2.2
