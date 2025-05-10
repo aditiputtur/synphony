@@ -153,7 +153,7 @@ class Synphony(nn.Module):
         return self.out(x)
 
 # ─── 0. Hyperparams & device ─────────────────────────────────────────────
-MAX_TOKENS = 128
+MAX_TOKENS = 512
 TEMPERATURE = 1.0
 TOP_K = 8
 
