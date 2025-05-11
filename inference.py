@@ -168,7 +168,15 @@ device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is
 
 # ─── 1. Re-load tokenizer & model ────────────────────────────────────────
 # (Use the same config & special tokens you trained with)
-config = TokenizerConfig(num_velocities=16, use_chords=True, use_programs=True)
+config = TokenizerConfig(
+    num_velocities=32,
+    use_chords=True,
+    use_programs=True,
+    beat_res={(0,4): 8, (4,8): 4},
+    use_rests=True,
+    rest_range=(2,8),
+    use_time_signatures=True
+)
 tokenizer = REMI(config)
 # re-add the same special tokens:
 genres = pd.read_csv("data/genres.csv")
