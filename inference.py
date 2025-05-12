@@ -153,16 +153,14 @@ class Synphony(nn.Module):
         return self.out(x)
 
 # ─── 0. Hyperparams & device ─────────────────────────────────────────────
-# MAX_TOKENS = 512
 TEMPERATURE = 1.0
 TOP_K = 8
 
 MAX_TOKENS = 512
-BATCH_SIZE = 2
 
-D_MODEL = 512
-N_LAYERS = 6
-N_HEADS = 8
+D_MODEL = 768
+N_LAYERS = 8
+N_HEADS = 12
 
 device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
 
