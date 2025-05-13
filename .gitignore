@@ -1,3 +1,4 @@
 data
 .DS_Store
-synphony_best.pt
+*.pt
+!synphony_best.pt
