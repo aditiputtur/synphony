@@ -10,3 +10,4 @@ pretty_midi
 miditok
 einops
 transformers
+pydub
