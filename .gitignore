@@ -2,3 +2,4 @@ data
 .DS_Store
 *.pt
 !synphony_best.pt
+__pycache__/
