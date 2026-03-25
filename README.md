@@ -3,7 +3,7 @@
 > A transformer-based symbolic music generation system that composes 
 > original pieces conditioned on genre, artist, and era.
 
-[Read the full write-up on Medium](https://medium.com/@aditi.puttur/synphony-transcending-musical-eras-and-genres-with-neural-networks-e18db3741cbf)
+[Read the full writeup on Medium](https://medium.com/@aditi.puttur/synphony-transcending-musical-eras-and-genres-with-neural-networks-e18db3741cbf)
 
 ---
 
@@ -12,9 +12,9 @@
 SynPhony generates symbolic music (MIDI) that reflects a specific 
 musical style. You choose:
 
-- **Genre** — Classical, Jazz, Pop, Rock, Electronic, and 10 more
-- **Era** — Any decade from 1945–2010
-- **Artist** — 2,956 artists including Frank Sinatra, Lady Gaga, 
+- **Genre**: Classical, Jazz, Pop, Rock, Electronic, and 10 more
+- **Era**: Any decade from 1945–2010
+- **Artist**: 2,956 artists including Frank Sinatra, Lady Gaga, 
   Coldplay, and more
 
 The model composes a piece token by token, guided by conditioning 
